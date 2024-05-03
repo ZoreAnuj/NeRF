@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](http://tancik.com/nerf)  
 
-<img src='imgs/pipeline.jpg'/>
+<img src='pipeline.jpg'/>
 
 > A neural radiance field is a simple fully connected network (weights are ~5MB) trained to reproduce input views of a single scene using a rendering loss. The network directly maps from spatial location and viewing direction (5D input) to color and opacity (4D output), acting as the "volume" so we can use volume rendering to differentiably render new views
 
